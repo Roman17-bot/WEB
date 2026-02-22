@@ -2,6 +2,8 @@
 
 **Junior ASP.NET Developer**
 
+![Roman Pismerov](photo.png)
+
 ## Navigation
 
 - [About me](#about-me)
@@ -65,3 +67,8 @@ static async Task SaveBooksAsync(Book[] books)
 - **English Level** `B!+`
 
 ---
+
+## Contacts
+
+- **Phone:** +375 (33) 349-11-83
+- **Email:** [rpis20849@gmail.com](mailto:rpis20849@gmail.com)
