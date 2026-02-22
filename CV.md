@@ -2,6 +2,15 @@
 
 **Junior ASP.NET Developer**
 
+## Navigation
+
+- [About me](#about-me)
+- [My skills](#my-skills)
+- [My code](#my-code)
+- [My courses](#my-courses)
+- [Language Proficiency](#language-proficiency)
+- [Contacts](#contacts)
+
 ## About me
 
 I am a motivated 2nd-year Software Engineering student at the **Belarusian-Russian University**, focusing on C#. I possess advanced English proficiency and valuable experience living abroad, which has significantly enhanced my communication skills and adaptability.
@@ -40,5 +49,19 @@ static async Task SaveBooksAsync(Book[] books)
     Console.WriteLine("Сохранение прошло успешно!");
 }
 ```
+
+---
+
+## My courses
+
+1. **Course** `C#`
+2. **Course** `Git`
+3. **Course** `SQL`
+
+---
+
+## Language Proficiency
+
+- **English Level** `B!+`
 
 ---
