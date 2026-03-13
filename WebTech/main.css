@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /* font-family: "Montserrat", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"); /* font-family: "Montserrat", sans-serif; font-weight: 600; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"); /* font-family: "Montserrat", sans-serif; font-weight: 500; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1;
+}
+
+html {
+  font-size: 16px;
+
+  @media (max-width: 960px) {
+    font-size: 13px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.top-bar {
+  background-color: #141d28;
+  font-size: 0.9375rem;
+  height: 3.75rem;
+}
+
+.top-bar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.125rem;
+  padding-left: clamp(0.5rem, 10vw, 9.75rem);
+  padding-right: 15.625rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar {
+  background-color: #0c1117;
+}
+
+.navbar-inner {
+  display: flex;
+  gap: clamp(0.5rem, 10vw, 9.9375rem);
+  align-items: center;
+  padding: 1.4375rem 8.4375rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.919125rem;
+  font-size: 1.875rem;
+  color: #377dff;
+}
+
+.nav-links {
+  display: flex;
+  gap: clamp(0.5rem, 5vw, 3.9375rem);
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  background:
+    linear-gradient(rgba(18, 27, 38, 0.73)),
+    url(img/header.jpg) lightgray 50% / cover no-repeat;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 102.6vh;
+  margin: 0 auto;
+  z-index: 3;
+  justify-content: flex-starts;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.hero-container {
+  position: relative;
+  padding-top: 2rem;
+  padding-left: 8.25rem;
+  z-index: 2;
+}
+
+.businessman {
+  padding-left: clamp(0.1rem, 34vw, 30.5rem);
+}
+
+.hero-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.9375rem;
+  max-width: 661px;
+  z-index: 1;
+  margin-top: 16.19rem;
+}
+
+.hero-title-block {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 1.5625rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.hero-number {
+  color: rgba(255, 255, 255, 0.13);
+  font-size: 8.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11.25rem;
+}
+
+.divider {
+  width: 0.1875rem;
+  height: 8.125rem;
+  background: #377dff;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  font-family: Montserrat;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heading-first {
+  color: #fff;
+  align-self: stretch;
+  line-height: 6.875rem;
+}
+
+.heading-second {
+  align-self: stretch;
+  color: #377dff;
+  line-height: 5.625rem;
+  margin-top: -1.25rem;
+}
+
+.hero-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.69rem;
+  align-self: stretch;
+}
+
+.hero-discription {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  max-width: 34.375rem;
+  align-self: stretch;
+}
+
+.hero-buttons {
+  display: flex;
+  max-width: 21rem;
+  align-items: center;
+  align-content: center;
+  gap: 0.88rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.hero-button1 {
+  padding: 1.06rem 2.31rem;
+  border-radius: 2.1875rem;
+  border: none;
+  background: #377dff;
+  max-height: 3.12rem;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.hero-button2 {
+  padding: 1.06rem 2.31rem;
+  border-radius: 2.1875rem;
+  background: none;
+  border: 2px solid #377dff;
+  max-height: 3.12rem;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.hero-shape {
+  position: absolute;
+  margin-top: -3.4rem;
+  width: 100.1%;
+  left: 0;
+  height: 8vh;
+  background-color: #ffffff;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+/*  */
+.how-it-works {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+  align-self: stretch;
+  color: #121b26;
+}
+
+.works-title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.38rem;
+}
+
+.works-divider {
+  width: 0.1875rem;
+  height: 3.375rem;
+  background: #377dff;
+}
+
+.works-heading {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.875rem; /* 121.053% */
+  letter-spacing: 0.0625rem;
+}
+
+.text-blue {
+  color: #377dff;
+  font-size: 2.5rem;
+}
+
+.works-steps {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  padding-left: 8.44rem;
+}
+
+.step-image-wrapper1 {
+  display: flex;
+  padding: 0.9375rem 2.63675rem 0.25rem 5.125rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.step-image-wrapper2 {
+  display: flex;
+  padding: 0.9375rem 3.56838rem 0.25rem 4.19338rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.step-image-wrapper3 {
+  display: flex;
+  width: 19.01175rem;
+  padding: 0.9375rem 3.0625rem 0.25rem 3.01175rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.step-img {
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 6.875rem;
+}
+
+.step-title {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 100% */
+  text-transform: capitalize;
+}
+
+/* Настройка контейнера для стрелок */
+.step-arrow {
+  width: 7.8125rem;
+  height: 1.3125rem;
+}
