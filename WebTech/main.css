@@ -349,8 +349,62 @@ ul {
   text-transform: capitalize;
 }
 
-/* Настройка контейнера для стрелок */
 .step-arrow {
   width: 7.8125rem;
   height: 1.3125rem;
+}
+/*  */
+.benefits {
+  background-color: #233142;
+  width: 100%;
+  min-height: 32.5625rem;
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits-container {
+  display: grid;
+  max-width: 72.0625rem;
+  padding-top: 8.19rem;
+  grid-template-rows: repeat(2, fit-content(100%));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  row-gap: 3.4375rem;
+  column-gap: 0rem;
+  align-self: stretch;
+}
+
+.benefit-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.benefit-text {
+  display: flex;
+  max-width: 18.375rem;
+  padding-top: 0.8125rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.125rem;
+  flex: 1 0 0;
+}
+
+.benefit-title {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4375rem;
+  text-transform: capitalize;
+  align-self: stretch;
+}
+
+.benefit-description {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  align-self: stretch;
 }
