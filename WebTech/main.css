@@ -675,3 +675,40 @@ ul {
   line-height: 1.875rem; /* 187.5% */
 }
 /* Section 6 */
+
+.cards {
+  width: 100%;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+}
+
+.card-first {
+  display: flex;
+  width: 22.5rem;
+  height: 21.625rem;
+  justify-content: center;
+  align-items: center;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(18, 27, 38, 0.73) 0%,
+      rgba(18, 27, 38, 0.73) 100%
+    ),
+    url(img/cards/card1.jpg) lightgray 50% / cover no-repeat;
+}
+
+.plus {
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+}
+
+.card {
+  width: 22.5rem;
+  height: 21.625rem;
+}
