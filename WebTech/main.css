@@ -712,3 +712,153 @@ ul {
   width: 22.5rem;
   height: 21.625rem;
 }
+/* Section 7 */
+.testimonials {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.testimonials-container {
+  display: flex;
+  padding: 9.28125rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.375rem;
+  align-self: stretch;
+}
+
+.testimonials-title-block {
+  display: flex;
+  min-height: 3.375rem;
+  padding-left: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border-left: 3px solid #377dff;
+}
+
+.testimonials-title {
+  color: #141d28;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.875rem; /* 115% */
+  letter-spacing: 0.0625rem;
+}
+
+.testimonials-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.8rem;
+}
+
+/* Блок со стрелочками и фотографиями */
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 6.8125rem;
+}
+
+.slider-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Блок только с фотографиями */
+.portraits {
+  display: flex;
+  align-items: center;
+  gap: 3.875rem;
+}
+
+.portrait-side {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 6.875rem;
+}
+
+.portrait-side.left {
+  background: url(img/testimonials/testLeft.jpg) lightgray 50% / cover no-repeat;
+}
+
+.portrait-side.right {
+  background: url(img/testimonials/testRight.jpg) lightgray 50% / cover
+    no-repeat;
+}
+
+.portrait-center {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 6.875rem;
+  background: url(img/testimonials/testMain.jpg) lightgray 50% / cover no-repeat;
+}
+
+/* Текст отзыва */
+.testimonials-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.75rem;
+}
+
+.testimonials-desc p {
+  max-width: 48.125rem;
+  align-self: stretch;
+  color: #4e5e72;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9375rem; /* 155% */
+}
+
+/* Имя и должность */
+.testimonials-author {
+  display: flex;
+  padding: 0 15.4375rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5625rem;
+}
+
+.author-name {
+  align-self: stretch;
+  color: #141d28;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.6875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.15625rem; /* 127.778% */
+  letter-spacing: 0.0625rem;
+}
+
+.author-role {
+  align-self: stretch;
+  color: #4e5e72;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 187.5% */
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
