@@ -11,7 +11,7 @@
     <header class="header">
       <div class="top-bar">
         <div class="container top-bar-inner">
-          <div>+123 456 789</div>
+          <div class="top-bar-phone">+123 456 789</div>
           <div class="socials">
             <img src="img/socials/Instagram.svg" alt="Instagram" />
             <img src="img/socials/Dribbble.svg" alt="Dribbble" />
@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <!--navbar -->
+      <!--Navbar -->
       <nav class="navbar">
         <div class="container navbar-inner">
           <div class="logo">
@@ -37,6 +37,7 @@
         </div>
       </nav>
     </header>
+    <!-- Navbar -->
     <!-- Header end -->
 
     <!-- Main start -->
@@ -49,7 +50,7 @@
               <div class="hero-number">01</div>
               <div class="divider"></div>
               <div class="hero-heading">
-                <h1 class="heading-first">The Uniqe Creative</h1>
+                <h2 class="heading-first">The Uniqe Creative</h2>
                 <p class="heading-second">Design Agency</p>
               </div>
             </div>
@@ -67,7 +68,7 @@
           </div>
           <img
             class="businessman"
-            src="img/businessman 1.png"
+            src="img/businessman1.png"
             alt="businessman"
           />
           <div class="hero-shape"></div>
@@ -307,7 +308,7 @@
       <!-- Section 6 -->
       <section class="cards">
         <div class="container cards-container">
-          <div class="card-first">
+          <div class="card first">
             <button class="plus">
               <img src="img/cards/plus.svg" alt="plus" />
             </button>
@@ -367,7 +368,13 @@
       <!-- Section 8 -->
       <section class="innovation">
         <div class="container innovation-container">
-          <img src="img/inno-worker.png" alt="worker" />
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="img/inno-worker-tablet.png"
+            />
+            <img src="img/inno-worker.png" alt="worker" />
+          </picture>
 
           <div class="innovation-body">
             <div class="innovation-text">
